@@ -1,42 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Javascript 🖥</title>
-  <link rel="stylesheet" href= "style.CSS"> 
-  <!-- 3. Llamamos a un archivo externo dentro de la etiqueta -->
-  <script src="./script.js"></script>
-
-</head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🖥️ Javascript</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Onest:wght@100..900&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Javascript -->
+    <script src="./script.js" defer></script>
+  </head>
 <body>
 
+  <section>
+  <img src="./assets/cover.jpg" alt="Imagen de portada">
   <h1>Jvascrpt 🖥</h1>
   <p>Javascript es un lenguaje de programación y de alto nivel para crear interfaces interactivas y dinamicas</p>
   <p>Es uno de los tres pilares fundamentales del desarrollo web.</p>
   <ul>
-    <li>HTML -> Define la estructura del contenido. (Elemetos que aparecen en lapagina)</li>
-    <li>CSS  -> Define la apariencia (colores, tamnaños, estilos)</li>
-    <li>Javascript (JS) -> Define el comportamiento (Lo que hace la pagina o sus elementos.)</li>
+    <li>1️⃣ <strong>HTML.</strong> Define la estructura del contenido. Son los elementos que aparecen en la página</li>
+    <li>2️⃣ <strong>CSS.</strong> Define la apariencia. Colores, tamaños, estilos, etc.</li>
+    <li>3️⃣ <strong>Javascript (JS)</strong> Define el comportamiento. Lo que hace la página o sus elementos.</li>
   </ul>
+  </section>
 
-  <h2>Caracteristicas de Javascript</h2>
-  <ol>
-    <li>Lenguaje interpretado -> No necesitamos compilarlo. El navegador lo entiende directamento.</li>
-    <li>Basado en objetos -> Maneja objetos como documentos, window, arrays, date, class. </li>
-    <li>Dinamico -> Podemos modificar el contenido en tiempo real. (Sin cargar)</li>
-    <li>Versatil y de fácil aprendizaje -> Aunque nacio para la web, se usa tambien en servidores, aplicaciones móviles, videojuegos y hoy en día en Inteligencia Artificial.</li>
-  </ol>
+  <section>
+      <h2>Características de Javascript</h2>
+      <ol>
+        <li>👉 <strong>Lenguaje intepretado.</strong> No necesitamos compilarlo. El navegador lo entiende directamente.</li>
+        <li>👉 <strong>Basado en objetos.</strong> Maneja objetos como document, window, arrays, date, class.</li>
+        <li>👉 <strong>Dinámico.</strong> Podemos modificar el contenido en tiempo real. (Sin recargar)</li>
+        <li>👉 <strong>Versatil y de fácil aprendizaje.</strong> Aunque nacio para la web, se usa también en servidores, aplicaciones móviles, videojuegos y hoy en día en Inteligencia Artificial.</li>
+      </ol>
+    </section>
 
- <!-- 1. Agregar Jvascript -->
-
- <script>
-    console.log("¡Hola mundo, aprendo JS!🎇");
- </script>
-
- <!-- 2. Vincular un archivo externo antes del cierre del body -->
-
- <script src="./codigo.js"></script>
+  <section>
+      <h2>Integración de Javascript JS</h2>
+      <p>Hay tres formas principales de integrar Javascript en una página web:</p>
+      <ul>
+        <li>1️⃣ <strong>Directamente en el HTML.</strong> Usando la etiqueta <code>&lt;script&gt;&lt;/script&gt;</code> dentro del archivo HTML.</li>
+        <li>2️⃣ <strong>Archivo externo.</strong> Vinculando un archivo .js con la etiqueta <code>&lt;script src="ruta/del/archivo.js"&gt;&lt;/script&gt;</code> antes del cierre de la etiqueta <code>&lt;/body&gt;</code>.</li>
+        <li>3️⃣ <strong>Archivo externo en el head.</strong> Vinculando un archivo .js dentro de la etiqueta <code>&lt;head&gt;</code> con el atributo <code>defer</code> para que espere a que se cargue el HTML antes de ejecutarse.</li>
+      </ul>
+      <p>La opción recomendada es la segunda o tercera, ya que permite mantener el código separado del HTML, facilitando su mantenimiento y reutilización.</p>
+    </section>
 
 </body>
 </html>
