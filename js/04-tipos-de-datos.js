@@ -31,20 +31,9 @@
     👉🏻 Null o nulo 
 
     Esta respresenta la ausencia intencional de cualquier valor u objeto. Es una tipo de dato que indica que una variable no tiene ningun valor asignado.
-
-    👉🏻 Arry o Arreglo
-
-    Es un conjunto de datos que se almacenan en una lista ordenada de elementos. Los datos dentro de los arreglos se escriben entre corchetes [] y separados por comas,
-
-    👉🏻 Object u Objeto
-
-    Es un conjunto de múltiples datos en pares "clave"-"valor".
-    Se escriben entre {} y separados por comas ,
-
-    👉🏻 Functions o Funsiones
-    Es un tipo de datos que puede ser "invocado". Se declaran con la palabra reservada "fuction" y el codigo que se ejecuta entre {"codigos"}
 */
-/* Numbers */ 
+
+/* Numbers */
 
 let miNumero = 8; //Enteros
 let miNumeroDecimal = 7.7; //Decimales
@@ -54,8 +43,8 @@ console.log(miNumeroDecimal);
 
 /* Strings */
 
-let miNombre = 'Vane';
-let miApellido = 'Chavarria';
+let miNombre = 'Yeyo';
+let miApellido = 'Vilchis';
 
 /* Boolean */
 
@@ -75,6 +64,21 @@ console.log(aprobareDesarrolloApps);
 let meQuiere = null;
 console.log(meQuiere);
 
+/* 
+    👉🏻 Arry o Arreglo
+
+    Es un conjunto de datos que se almacenan en una lista ordenada de elementos. Los datos dentro de los arreglos se escriben entre corchetes [] y separados por comas,
+
+    👉🏻 Object u Objeto
+
+    Es un conjunto de múltiples datos en pares "clave"-"valor".
+    Se escriben entre {} y separados por comas ,
+
+    👉🏻 Functions o Funsiones
+    Es un tipo de datos que puede ser "invocado". Se declaran con la palabra reservada "fuction" y el codigo que se ejecuta entre {"codigos"} 
+*/
+
+
 /* Array */
 
 let misSeries = ["The office", "Baby", "The bin bang theory"]
@@ -83,7 +87,7 @@ let tutifruti = ["Punchunguito, 182, tru"]
 
 console.log( misSeries[2] ); //Baby
 console.log( misNumeros[4] ); // 11
-console.log( tutifruti[1]); //182
+console.log( tutifruti[1] ); //182
 
 /* Object */
 
@@ -94,3 +98,17 @@ let perro = {
   ladra: true,
   muerde: false, 
 }
+
+console.log( perro.nombre );
+console.log( perro.edad );
+console.log( perro.muerde );
+
+/* Fuctions */
+
+function saludar () {
+  //Código a ejecutar
+  console.log("Hola mamá, estoy aprendiendo JS")
+}
+
+//Llamamos a la funsión
+saludar ():
